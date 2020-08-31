@@ -1,5 +1,5 @@
 # Sem-3-Project
-This is the project for Computer System Organisation, semester 3, IIT BHU by Team 15 - ** Intricates **.
+This is the project for Computer System Organisation, semester 3, IIT BHU by Team 15 - **Intricates**.
 
 The team members are 
 1. Shabari S Nair
@@ -7,11 +7,11 @@ The team members are
 3. Sacchit D Sheth
 4. Hitesh Jindal
 
-Contributions would only be taken from team members.
+Contributions would only be taken from team members (for now).
 
-Follow along :)
+Follow along to get startes :)
 
-- Fork this repository by clicking on the * Fork * button at the top.
+- Fork this repository by clicking on the *Fork* button at the top.
 - Download git from [here](https://git-scm.com/downloads) if you dont have it already. If you are using Linux, then git is already installed.
 - Clone the forked repository into any local directory in your computer by typing the following in the terminal or command line.
 ```
@@ -23,7 +23,7 @@ git remote add upstream https://github.com/Killshot667/Sem-3-Project.git
 ```
 Now you are ready and set to go.
 
-- Also, dont forget to regularly pull in the changes made in the project.
+- Also, dont forget to regularly pull in the changes made in the project, before and after you have made your changes.
 ```
 git pull upstream master
 ```
@@ -31,7 +31,7 @@ git pull upstream master
 ```
 git status
 git add .
-git commit -m 'Describe the changes you amde briefly'
+git commit -m 'Describe the changes you made briefly'
 git push
 ```
 For learning more about git and github, click [here](https://www.youtube.com/watch?v=RGOj5yH7evk&t=1952s)
