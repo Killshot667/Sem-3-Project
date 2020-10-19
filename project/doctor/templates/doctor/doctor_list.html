@@ -1,0 +1,19 @@
+{% extends 'doctor/basic.html' %}
+{% block title %}
+	All Doctors
+{% endblock %}
+{% block body %}
+<h1>Our Specialised Doctors</h1>
+{% if doctor_list %}
+	<ul>
+		{% for doctor in doctor_list %}
+			<li>
+				{{doctor.name}} {{doctor.speciality.all|join:", "}}
+			</li>
+		{% endfor %}
+	</ul>
+	
+{% else %}
+	<p>Sorry, No doctors available at the moment</p>
+{% endif %}
+{% endblock %}

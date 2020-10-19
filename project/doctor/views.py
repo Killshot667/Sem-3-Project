@@ -2,7 +2,8 @@ from django.shortcuts import render,redirect
 from django.http import HttpResponse
 from django.contrib import messages
 from django.contrib.auth.models import User
-from .models import Contact
+from .models import Contact,Doctor,Speciality
+from django.views import generic
 # Create your views here.
 def home(request):
 	return render(request,'doctor/home.html')
@@ -45,5 +46,6 @@ def handleSignup(request):
 		myuser.save()
 		messages.success(request,"Your Account is successfully created!!!")
 		return redirect('doctorHome')
-	
+class DoctorListView(generic.ListView):
+	model=Doctor
 	

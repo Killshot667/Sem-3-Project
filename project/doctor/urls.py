@@ -5,4 +5,5 @@ urlpatterns = [
     path('contact/', views.contact,name='contact'), 	
     path('about/', views.about,name='about'), 	
     path('signup/', views.handleSignup,name='signup'), 	
+    path('doctors_list/',views.DoctorListView.as_view(),name='doctors_list')
 ]
